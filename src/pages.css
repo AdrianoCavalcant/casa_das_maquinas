@@ -1,0 +1,51 @@
+.banner_secondPages {
+    max-height: 46.2rem;
+    overflow-y: hidden;
+}
+
+
+header {
+    overflow-x: hidden;
+}
+
+.name_catalogo {
+    font-size: 7rem;
+    color: #E11F2A;
+    margin-top: 3rem;
+}
+
+.library-SecondPages {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 80vw;
+    margin-top: 5rem;
+}
+
+.select_product {
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border: 2px solid #F6F1F1;
+    border-radius: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 300px;
+}
+
+.select_product img {
+    max-height: 20rem;
+    border-bottom: 2px solid #F6F1F9;
+    width: 23rem;
+    object-fit: cover;
+}
+
+.select_product h1 {
+    word-break: normal;
+    width: 25rem;
+    min-height: 5rem;
+    font-family: "Roboto";
+    font-size: 2rem;
+}
